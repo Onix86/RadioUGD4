@@ -1,3 +1,4 @@
 {
-    "android": "https://github.com/apache/cordova-android"
+    "android": "https://github.com/apache/cordova-android",
+    "browser": "4.1.0"
 }
