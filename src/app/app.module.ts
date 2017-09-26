@@ -3,7 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-
+import { Splash } from '../pages/splash/splash';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
@@ -12,7 +12,8 @@ import{RadioPlayer} from '../app/radio';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+      HomePage,
+      Splash
   ],
   imports: [
     BrowserModule,
@@ -21,7 +22,8 @@ import{RadioPlayer} from '../app/radio';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+      HomePage,
+    Splash
   ],
   providers: [
     StatusBar,
