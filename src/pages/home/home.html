@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+       
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<ion-navbar *navbar> 
+  <ion-title> Radio Player </ion-title> 
+</ion-navbar> 
+
+<ion-content id="c"> 
+  <section class="seccion">
+
+  </section>
+  <div id="preloader_1">
+      <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+  <div class="boton">
+  <button ion-button round color="danger"(click)="play()"> 
+    <ion-icon name="play"></ion-icon>
+  </button> 
+  <button ion-button round color=""(click)="pause()"> 
+    <ion-icon name="pause"></ion-icon>
+  </button> 
+</div>
+</ion-content>
